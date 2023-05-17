@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Adaptive</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img class="img-logo" src="./img/logo.png" alt="Logo"></a>
+        </div>
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">HOME</a>
+                <a href="projects.html">PROJECTS</a>
+                <a href="blog.html">BLOG</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="about.html">ABOUT</a>
+                <a href="services.html">SERVICES</a>
+                <a href="location.html">LOCATION</a>
+                <a id="menu" href="#" class="icon">&#9776;</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Location</h1>
+        <div id="map"></div>
+    </main>
+    <footer>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="projects.html">PROJECTS</a>
+            <a href="blog.html">BLOG</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="about.html">ABOUT</a>
+            <a href="services.html">SERVICES</a>
+            <a href="location.html">LOCATION</a>
+        </nav>
+        <div class="logo">
+            <a href="index.html"><img class="img-logo" src="./img/logo.png" alt=""></a>
+        </div>
+        <div class="social">
+            <a href="#"><img class="correct-foot-icon" src="./img/footer/social-networks/google.png" alt=""></a>
+            <a href="#"><img class="correct-foot-icon" src="./img/footer/social-networks/facebook.png" alt=""></a>
+            <a href="#"><img class="correct-foot-icon" src="./img/footer/social-networks/insta.png" alt=""></a>
+            <a href="#"><img class="correct-foot-icon" src="./img/footer/social-networks/telega.png" alt=""></a>
+            <a href="#"><img class="correct-foot-icon" src="./img/footer/social-networks/twitter.png" alt=""></a>
+        </div>
+        <p>Holovatiuk Vova Web Developer. 2022</p>
+    </footer>
+
+<script>
+    function initMap() {
+        // The location of Uluru
+        const uluru = { lat: 46.4795703, lng: 30.7225799 };
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 5,
+            center: uluru,
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+        });
+    }
+
+    window.initMap = initMap;
+</script>
+<script async defer 
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFDdkACmOcObal8LppoZYxxkdNIR9P0Zg&callback=initMap" >
+</script>
+</body>
+
+</html>

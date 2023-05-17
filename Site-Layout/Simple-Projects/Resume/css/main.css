@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+    margin: 0px;
+    padding: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    background: #FFFFFF;
+}
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+    color: #000000;
+}
+h1{   
+    font-size: 45px;
+    line-height: 55px; 
+}
+h2{
+    font-size: 14px;
+    line-height: 17px;
+}
+h3{
+    font-size: 22px;
+    line-height: 27px;    
+}
+h4{
+    font-size: 16px;
+    line-height: 20px;
+}
+a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.destroy-pad-lists {
+    padding: 0;
+    margin-left: 15px;
+}
+.destroy-mar{
+    margin: 0 0 10px 0;
+}
+.about-description{width: 400px;}
+.project-li {
+    font-weight: 700;
+    color: #000000;
+}
+.project-link{
+    margin-left: 10px;
+}
+.project-li-u {
+    color: #595959;
+}
+.points {
+    color: #A8A8A8;
+}
+.orange {
+    color: #FB6D3A;
+}
+.grey {
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+.blue{
+    color: blue;
+}
+.acqua{
+    color: aqua;
+}
+.red{
+    color: red;
+}
+.bold-stick{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.contacts-text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.contact-link {
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-left: 10px;
+}
+.aside-text-color {
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.aside-titles {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}

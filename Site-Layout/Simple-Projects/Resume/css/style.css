@@ -1,0 +1,35 @@
+@import url(./main.css);
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.main-conent{padding: 105px 90px;}
+.about{margin-bottom: 40px;}
+.projects{margin-bottom: 50px;}
+.work{margin-bottom: 40px;}
+.education1{
+    margin-bottom: 30px;
+}
+.education2{
+    margin-bottom: 30px;
+}
+aside {
+    width: 370px;
+    padding-top: 40px;
+    /* background: #1E2939; */
+    background: #931414;
+}
+.photo{
+    width: 370px;
+    margin-bottom: 50px;
+}
+.aside-m{margin-left: 40px;}
+.contacts{margin-bottom: 45px;}
+.tech-skills{margin-bottom: 45px;}
+.add-skills{margin-bottom: 45px;}
+.languages{margin-bottom: 100px;}
+/* .soft-skills{margin-bottom: 366px;} */
